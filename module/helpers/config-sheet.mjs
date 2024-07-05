@@ -1,7 +1,6 @@
 export const configSheet = async () => {
 
     // pass Night Witches sheet object to sheetConfig
-
     game.pbta.sheetConfig = {
         rollFormula: "2d6",
         rollResults: {
@@ -41,16 +40,19 @@ export const configSheet = async () => {
                         value: 0
                     },
                 },
-                attrLeft: {
+                attributes: {
                     look: {
+                        position: "Left",
                         label: "Look",
                         type: "LongText",
                     },
                     regard: {
+                        position: "Left",
                         label: "Regard",
                         type: "LongText",
                     },
                     harm: {
+                        position: "Left",
                         type: "ListMany",
                         label: "Harm",
                         options: {
@@ -73,6 +75,7 @@ export const configSheet = async () => {
                         }
                     },
                     advancement: {
+                        position: "Left",
                         label: "Advancement",
                         description: null,
                         customLabel: false,
@@ -199,8 +202,9 @@ export const configSheet = async () => {
                 }
             },
             npc: {
-                attrLeft: {
+                attributes: {
                     nkvd_notes: {
+                        position: "Left",
                         label: "NKVD Notes",
                         description: null,
                         customLabel: false,
@@ -209,6 +213,7 @@ export const configSheet = async () => {
                         value: ""
                     },
                     description: {
+                        position: "Left",
                         label: "Description",
                         description: null,
                         customLabel: false,

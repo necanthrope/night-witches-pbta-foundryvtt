@@ -20,8 +20,8 @@ Hooks.once('init', () => {
 
 Hooks.once('pbtaSheetConfig', () => {
 
-    // Disable the sheet config form.
-    game.settings.set('pbta', 'sheetConfigOverride', true);
+    // Disable the PbtA sheet config form.
+    if (game.settings.settings.get('pbta.sheetConfigOverride')) game.settings.set('pbta', 'sheetConfigOverride', true);
 
     // Replace the game.pbta.sheetConfig with nightwitches version.
     configSheet();
