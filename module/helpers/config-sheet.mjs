@@ -1,6 +1,6 @@
 export const configSheet = async () => {
 
-    // pass Night Witches sheet object to sheeConfig
+    // pass Night Witches sheet object to sheetConfig
 
     game.pbta.sheetConfig = {
         rollFormula: "2d6",
@@ -73,35 +73,103 @@ export const configSheet = async () => {
                         }
                     },
                     advancement: {
-                        type: "ListMany",
                         label: "Advancement",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
                         options: {
                             0: {
-                                label: "HARSH LESSONS|3",
-                                value: false
+                                values: {
+                                    0: {
+                                        value: false
+                                    },
+                                    1: {
+                                        value: false
+                                    },
+                                    2: {
+                                        value: false
+                                    }
+                                },
+                                label: "HARSH LESSONS"
+                            },
+                            1: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    },
+                                    1: {
+                                        value: false
+                                    },
+                                    2: {
+                                        value: false
+                                    },
+                                    3: {
+                                        value: false
+                                    }
+                                },
+                                label: "DEEPENING TIES"
                             },
                             2: {
-                                label: "DEEPENING TIES|4",
-                                value: false
+                                values: {
+                                    0: {
+                                        value: false
+                                    },
+                                    1: {
+                                        value: false
+                                    },
+                                    2: {
+                                        value: false
+                                    }
+                                },
+                                label: "PERSONAL GROWTH"
                             },
                             3: {
-                                label: "PERSONAL GROWTH|3",
-                                value: false
+                                values: {
+                                    0: {
+                                        value: false
+                                    },
+                                    1: {
+                                        value: false
+                                    },
+                                    2: {
+                                        value: false
+                                    },
+                                    3: {
+                                        value: false
+                                    }
+                                },
+                                label: "HONOR AND PRIDE"
                             },
                             4: {
-                                label: "HONOR AND PRIDE|4",
-                                value: false
+                                values: {
+                                    0: {
+                                        value: false
+                                    },
+                                    1: {
+                                        value: false
+                                    },
+                                    2: {
+                                        value: false
+                                    }
+                                },
+                                label: "ADDED RESPONSIBILITY"
                             },
                             5: {
-                                label: "ADDED RESPONSIBILITY|3",
-                                value: false
-                            },
-                            6: {
-                                label: "MOVING WEST|1",
-                                value: false
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "MOVING WEST"
                             }
-                        },
+                        }
                     },
+                    marks: {},
                 },
                 moveTypes: {
                     playbookMoves: {
@@ -114,7 +182,7 @@ export const configSheet = async () => {
                     },
                     dayMoves: {
                         label: "Day",
-                        moves: []
+                        moves: game.packs.get("night-witches-pbta-foundryvtt.day-moves").index
                     },
                     nightMoves: {
                         label: "Night",

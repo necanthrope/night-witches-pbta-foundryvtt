@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/night-witches-pbta-foundryvtt.iml" filepath="$PROJECT_DIR$/night-witches-pbta-foundryvtt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/night-witches-pbta-foundryvtt.iml" filepath="$PROJECT_DIR$/.idea/worldofdungeons.iml" />
     </modules>
   </component>
 </project>

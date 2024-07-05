@@ -45,14 +45,22 @@
       "label": "Day Moves",
       "system": "pbta",
       "path": "./packs/day-moves.db",
-      "type": "Item"
+      "type": "Item",
+      "private":false,
+      "flags":{
+
+      }
     },
     {
       "name": "night-moves",
       "label": "Night Moves",
       "system": "pbta",
       "path": "./packs/night-moves.db",
-      "type": "Item"
+      "type": "Item",
+      "private":false,
+      "flags":{
+
+      }
     }
   ],
   "url": "https://github.com/necanthrope/night-witches-pbta-foundryvtt",
