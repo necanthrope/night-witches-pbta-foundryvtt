@@ -1,20 +1,20 @@
 {
   "id": "night-witches-pbta-foundryvtt",
-  "name": "night-witches-pbta-foundryvtt",
   "title": "Night Witches",
   "description": "Night Witches custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
   "authors": [
     {
-      "name": "necanthrope"
+      "id": "necanthrope",
+      "email": "necanthrope@gmail.com",
+      "url": "https://github.com/necanthrope/night-witches-pbta-foundryvtt"
     }
   ],
-  "version": "2",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "11",
+  "version": "1.0.0",
   "compatibility": {
     "minimum": "10",
-    "verified": "11.302"
+    "verified": "11"
   },
+  "system": ["pbta"],
   "relationships": {
     "systems": [
       {
@@ -55,8 +55,5 @@
       "path": "./packs/night-moves.db",
       "type": "Item"
     }
-  ],
-  "url": "https://github.com/necanthrope/night-witches-pbta-foundryvtt",
-  "manifest": "https://raw.githubusercontent.com/necanthrope/night-witches-pbta-foundryvtt/master/module.json",
-  "download": "https://github.com/necanthrope/night-witches-pbta-foundryvtt/archive/refs/tags/public.zip",
+  ]
 }

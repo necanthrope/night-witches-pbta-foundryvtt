@@ -3,14 +3,14 @@ import { configSheet } from "./helpers/config-sheet.mjs"
 // once the game has initialized, set up the module
 Hooks.once('init', () => {
 
-    // register WoDu settings
+    // register nightwitches settings
     game.settings.register('night-witches-pbta-foundryvtt', 'settings-override', {
-        name: game.i18n.localize("WoDu.Settings.Title"),
+        name: game.i18n.localize("nightwitches.Settings.Title"),
         default: false,
         type: Boolean,
         scope: 'world',
         config: true,
-        hint: game.i18n.localize("WoDu.Settings.Hint"),
+        hint: game.i18n.localize("nightwitches.Settings.Hint"),
         onChange: () => setTimeout(() => {
             location.reload();
         }, 500)
@@ -23,7 +23,7 @@ Hooks.once('pbtaSheetConfig', () => {
     // Disable the sheet config form.
     game.settings.set('pbta', 'sheetConfigOverride', true);
 
-    // Replace the game.pbta.sheetConfig with WoDu version.
+    // Replace the game.pbta.sheetConfig with nightwitches version.
     configSheet();
 
 });
