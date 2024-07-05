@@ -1,0 +1,54 @@
+{
+  "name": "Enemy Fire",
+  "type": "move",
+  "system": {
+    "name": "",
+    "description": "<p><strong>WHEN YOUR PO-2 IS HIT BY BULLETS OR FLAK</strong> roll +luck. On a 10+ the old girl&rsquo;s in one piece and you are fine. On a 7-9 she holds together and you choose two consequences:</p>\n<ul>\n<li>You and your fellow airwoman are marked</li>\n<li>Casualties on board (Split 5 harm between you however you like; also triggers Wheels Down later)</li>\n<li>Your plane is damaged (Also triggers Wheels Down later)</li>\n<li>Another plane in your section goes down (GM will decide which)</li>\n</ul>\n<p>On a miss the GM might choose three from the 7-9 list or maybe something more horrific.</p>",
+    "moveType": "nightMoves",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Hit",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Full Hit!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "luck",
+    "rollMod": 0,
+    "choices": "",
+    "actorType": "character"
+  },
+  "_id": "kSEsz4GY18Q99Rso",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "RvB4EHRfspAUyhGT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.20",
+    "coreVersion": "12.328",
+    "createdTime": 1707689219714,
+    "modifiedTime": 1720215011927,
+    "lastModifiedBy": "ZxkUcPIs5HSaJ2Mm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kSEsz4GY18Q99Rso"
+}

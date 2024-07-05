@@ -7,9 +7,15 @@
       "name": "Jeremy Tidwell",
       "email": "necanthrope@gmail.com",
       "url": "https://github.com/necanthrope/night-witches-pbta-foundryvtt"
+    },
+    {
+      "name": "ephson",
+      "url": "https://github.com/philote",
+      "discord": "ephson",
+      "reddit": "u/ephson"
     }
   ],
-  "version": "1.1.0",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": 12,
     "verified": 12.328,
@@ -63,7 +69,9 @@
       }
     }
   ],
-  "url": "https://github.com/necanthrope/night-witches-pbta-foundryvtt",
-  "manifest": "",
-  "download": ""
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md"
 }

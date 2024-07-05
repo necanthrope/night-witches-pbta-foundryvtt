@@ -1,7 +1,0 @@
-2024/07/05-13:14:30.936 9870 Recovering log #17
-2024/07/05-13:14:30.943 9870 Delete type=0 #17
-2024/07/05-13:14:30.944 9870 Delete type=3 #16
-2024/07/05-14:02:56.212 ce6c Level-0 table #21: started
-2024/07/05-14:02:56.212 ce6c Level-0 table #21: 0 bytes OK
-2024/07/05-14:02:56.215 ce6c Delete type=0 #19
-2024/07/05-14:02:56.215 ce6c Manual compaction at level-0 from '!items!D84wCzLEvSFRFHUV' @ 72057594037927935 : 1 .. '!items!kSEsz4GY18Q99Rso' @ 0 : 0; will stop at (end)

@@ -1,0 +1,54 @@
+{
+  "name": "Briefing (Ranking Officer)",
+  "type": "move",
+  "system": {
+    "name": "",
+    "description": "<p><strong>WHEN THE SUN BEGINS TO SET, CONSULT WITH THE GM AND INFORM YOUR AIRCREWS ABOUT THE COMING NIGHT&rsquo;S OBJECTIVE.</strong> Assign a navigator to&nbsp; Wayfind and a pilot to lead the Attack Run. The remaining player characters are<br>Vedomaya; assign each to cover another plane. Choose and check off a mission from the Duty Station sheet and present it to the assembled regiment. Don&rsquo;t forget to announce any medals and promotions during the briefing.</p>",
+    "moveType": "dayMoves",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Hit",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Full Hit!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": "",
+    "actorType": "character"
+  },
+  "_id": "4P3ZT5hwOIwFCanb",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "RvB4EHRfspAUyhGT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.20",
+    "coreVersion": "12.328",
+    "createdTime": 1707687877064,
+    "modifiedTime": 1720215011608,
+    "lastModifiedBy": "ZxkUcPIs5HSaJ2Mm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4P3ZT5hwOIwFCanb"
+}
