@@ -1,0 +1,62 @@
+{
+  "id": "night-witches-pbta-foundryvtt",
+  "name": "night-witches-pbta-foundryvtt",
+  "title": "Night Witches",
+  "description": "Night Witches custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
+  "authors": [
+    {
+      "name": "necanthrope"
+    }
+  ],
+  "version": "2",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "11",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11.302"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system",
+        "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/0.7.0/system.json",
+        "compatibility": {
+          "verified": "0.7.2"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "./module/night-witches-pbta-foundryvtt.mjs"
+  ],
+  "styles": [
+    "./styles/night-witches-pbta-foundryvtt.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "day-moves",
+      "label": "Day Moves",
+      "system": "pbta",
+      "path": "./packs/day-moves.db",
+      "type": "Item"
+    },
+    {
+      "name": "night-moves",
+      "label": "Night Moves",
+      "system": "pbta",
+      "path": "./packs/night-moves.db",
+      "type": "Item"
+    }
+  ],
+  "url": "https://github.com/necanthrope/night-witches-pbta-foundryvtt",
+  "manifest": "https://raw.githubusercontent.com/necanthrope/night-witches-pbta-foundryvtt/master/module.json",
+  "download": "https://github.com/necanthrope/night-witches-pbta-foundryvtt/archive/refs/tags/public.zip",
+}
