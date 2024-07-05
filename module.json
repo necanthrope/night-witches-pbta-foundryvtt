@@ -4,7 +4,7 @@
   "description": "Night Witches custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
   "authors": [
     {
-      "id": "necanthrope",
+      "name": "Jeremy Tidwell",
       "email": "necanthrope@gmail.com",
       "url": "https://github.com/necanthrope/night-witches-pbta-foundryvtt"
     }
@@ -14,7 +14,6 @@
     "minimum": "10",
     "verified": "11"
   },
-  "system": ["pbta"],
   "relationships": {
     "systems": [
       {
