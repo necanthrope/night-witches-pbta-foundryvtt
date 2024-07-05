@@ -182,11 +182,11 @@ export const configSheet = async () => {
                     },
                     dayMoves: {
                         label: "Day",
-                        moves: game.packs.get("night-witches-pbta-foundryvtt.day-moves").index
+                        creation: true
                     },
                     nightMoves: {
                         label: "Night",
-                        moves: []
+                        creation: true
                     }
                 },
                 equipmentTypes: {
