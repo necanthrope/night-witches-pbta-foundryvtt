@@ -1,0 +1,54 @@
+{
+  "name": "Debrief",
+  "type": "move",
+  "system": {
+    "name": "",
+    "description": "<p><strong>WHEN YOU DEBRIEF AFTER A MISSION</strong>, tell your Chief of Staff or Squadron Commander what went right and what went wrong. the GM may inflict stress harm as established. If you wish, change the tone of any existing Regard. If you are a Zealot, publicly shame a comrade and add one to the next night&rsquo;s mission pool if you wish. If it was the duty station&rsquo;s last mission, begin Operational Planning.</p>",
+    "moveType": "nightMoves",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Hit",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Full Hit!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": "",
+    "actorType": "character"
+  },
+  "_id": "Nkabb4zja6NcWP58",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "RvB4EHRfspAUyhGT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.20",
+    "coreVersion": "12.328",
+    "createdTime": 1707689537115,
+    "modifiedTime": 1720215011906,
+    "lastModifiedBy": "ZxkUcPIs5HSaJ2Mm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Nkabb4zja6NcWP58"
+}
