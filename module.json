@@ -55,5 +55,8 @@
       "path": "./packs/night-moves.db",
       "type": "Item"
     }
-  ]
+  ],
+  "url": "https://github.com/necanthrope/night-witches-pbta-foundryvtt",
+  "manifest": "https://raw.githubusercontent.com/necanthrope/night-witches-pbta-foundryvtt/master/module.json",
+  "download": "https://github.com/necanthrope/night-witches-pbta-foundryvtt/archive/refs/tags/public.zip"
 }
