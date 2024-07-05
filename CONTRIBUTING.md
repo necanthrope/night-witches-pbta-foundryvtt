@@ -10,7 +10,7 @@ With the change to LevelDB, there is an extra step to create the packs locally.
 - You need to have a node.js installation done NPM install
 - You must be in Foundry welcome page (or have it completely closed) and NOT in a world. In the system directory, do : 
     - npm install will generate the node_modules depending on package.json and package-lock.json
-    - npm run pullJSONtoLDB will create the packs depending of the content of src/packs directory
+    - npm run pullJSONtoLDB will create the packs depending on the content of src/packs directory
 
 # To update the packs
 Make sure Foundry is NOT in a world or not running first.
