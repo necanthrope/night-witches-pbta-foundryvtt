@@ -58,6 +58,17 @@
       }
     },
     {
+      "name": "playbooks",
+      "label": "Playbooks",
+      "system": "pbta",
+      "path": "./packs/playbooks.db",
+      "type": "Item",
+      "private":false,
+      "flags":{
+
+      }
+    },
+    {
       "name": "night-moves",
       "label": "Night Moves",
       "system": "pbta",
