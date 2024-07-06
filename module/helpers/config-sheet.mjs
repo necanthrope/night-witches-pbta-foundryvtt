@@ -45,6 +45,7 @@ export const configSheet = async () => {
                         position: "Left",
                         label: "Look",
                         type: "LongText",
+                        playbook: true,
                     },
                     regard: {
                         position: "Left",
