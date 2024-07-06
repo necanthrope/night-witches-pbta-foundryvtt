@@ -185,11 +185,11 @@ export const configSheet = async () => {
                         moves: []
                     },
                     dayMoves: {
-                        label: "Day",
+                        label: "Day Moves",
                         creation: true
                     },
                     nightMoves: {
-                        label: "Night",
+                        label: "Night Moves",
                         creation: true
                     }
                 },

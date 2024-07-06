@@ -69,6 +69,17 @@
       }
     },
     {
+      "name": "role-moves",
+      "label": "Roles",
+      "system": "pbta",
+      "path": "./packs/role-moves.db",
+      "type": "Item",
+      "private":false,
+      "flags":{
+
+      }
+    },
+    {
       "name": "night-moves",
       "label": "Night Moves",
       "system": "pbta",

@@ -5,7 +5,7 @@
   "system": {
     "description": "<div class=\"page\" title=\"Page 27\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Pigeons are gregarious and not afraid to get their feathers dirty— resourceful and down to earth. They are also vaguely ridiculous and most comfortable in a crowd.</p>\n</div>\n</div>\n</div>\n</div>",
     "slug": "pigeon",
-    "actorType": "",
+    "actorType": "character",
     "stats": {
       "skill": {
         "label": "Skill",
@@ -51,20 +51,38 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.night-witches-pbta-foundryvtt.playbooks.Item.Bnbm0N7pEOf6gGkD",
+            "uuid": "Compendium.night-witches-pbta-foundryvtt.role-moves.Item.Bnbm0N7pEOf6gGkD",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.night-witches-pbta-foundryvtt.playbooks.Item.QUO8JqrtrKXLljZA",
+            "uuid": "Compendium.night-witches-pbta-foundryvtt.role-moves.Item.QUO8JqrtrKXLljZA",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "img": "icons/svg/aura.svg",
-            "uuid": "Compendium.night-witches-pbta-foundryvtt.playbooks.Item.VZhDOMwdBlFjbcbz",
+            "uuid": "Compendium.night-witches-pbta-foundryvtt.role-moves.Item.VZhDOMwdBlFjbcbz",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "icons/svg/aura.svg",
+            "uuid": "Compendium.night-witches-pbta-foundryvtt.role-moves.Item.pZxFwlAMXcnUbSOL",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "icons/svg/aura.svg",
+            "uuid": "Compendium.night-witches-pbta-foundryvtt.role-moves.Item.ZbQSUWGlckEjhxuP",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "icons/svg/aura.svg",
+            "uuid": "Compendium.night-witches-pbta-foundryvtt.role-moves.Item.FCatPXMxBdpvAGrQ",
             "granted": false,
             "advancement": 0
           }

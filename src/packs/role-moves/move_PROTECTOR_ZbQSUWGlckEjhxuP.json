@@ -1,10 +1,10 @@
 {
-  "name": "DREAMER",
+  "name": "PROTECTOR",
   "type": "move",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<div class=\"page\" title=\"Page 1\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<div class=\"page\" title=\"Page 7\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You can weather an <strong>INFORMAL INTERVIEW</strong> well. When you change Duty Stations, Advance if you shared a premonition and it came true.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
-    "moveType": "",
+    "description": "<div class=\"page\" title=\"Page 7\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p> You can <strong>REPAIR</strong> well. When you change Duty Stations, Advance if you saved someone’s life.</p>\n</div>\n</div>\n</div>",
+    "moveType": "roleMoves",
     "rollFormula": "",
     "moveResults": {
       "failure": {
@@ -30,7 +30,7 @@
     "choices": ""
   },
   "effects": [],
-  "folder": "67Umy2mewzrsHDQp",
+  "folder": null,
   "ownership": {
     "default": 0,
     "ZxkUcPIs5HSaJ2Mm": 3
@@ -42,11 +42,11 @@
     "coreVersion": "12.328",
     "systemId": "pbta",
     "systemVersion": "1.0.20",
-    "createdTime": 1720224665898,
+    "createdTime": 1720224667643,
     "modifiedTime": 1720224681397,
     "lastModifiedBy": "ZxkUcPIs5HSaJ2Mm"
   },
-  "_id": "QUO8JqrtrKXLljZA",
-  "sort": 100000,
-  "_key": "!items!QUO8JqrtrKXLljZA"
+  "_id": "ZbQSUWGlckEjhxuP",
+  "sort": 300000,
+  "_key": "!items!ZbQSUWGlckEjhxuP"
 }
