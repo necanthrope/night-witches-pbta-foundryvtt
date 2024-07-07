@@ -173,7 +173,125 @@ export const configSheet = async () => {
                             }
                         }
                     },
-                    marks: {},
+                    marks: {
+                        position: "Left",
+                        label: "Marks",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: "pigeon",
+                        limited: false,
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "SUFFER THE DEATH OF A FRIEND OR LOVER."
+                            },
+                            1: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "WITNESS THE DEATH OF A COMRADE."
+                            },
+                            2: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "GIVE YOUR AIRCRAFT A PERSONALITY."
+                            },
+                            3: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "MAKE A FRIEND OR TAKE A LOVER."
+                            },
+                            4: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "TELL A SELF-AGGRANDIZING LIE."
+                            },
+                            5: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "SHARE A PAINFUL TRUTH ABOUT A YOURSELF."
+                            },
+                            6: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "ACQUIRE A DREAD OR SUPERSTITION."
+                            },
+                            7: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "PUT DUTY BEFORE HEALTH OR LOVE."
+                            },
+                            8: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "ADVANCE AND GROW."
+                            },
+                            9: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "TELL A WAR STORY."
+                            },
+                            10: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "TELL A STORY OF HOME.",
+                            },
+                            11: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "EMBRACE DEATH AND FACE YOUR FINAL DESTINY.",
+                            }
+                        },
+                    },
                 },
                 moveTypes: {
                     playbookMoves: {
