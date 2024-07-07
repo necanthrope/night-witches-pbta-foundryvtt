@@ -3,7 +3,7 @@
   "type": "playbook",
   "img": "icons/svg/book.svg",
   "system": {
-    "description": "<div class=\"page\" title=\"Page 27\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Pigeons are gregarious and not afraid to get their feathers dirty— resourceful and down to earth. They are also vaguely ridiculous and most comfortable in a crowd.</p>\n</div>\n</div>\n</div>\n</div>",
+    "description": "Pigeons are gregarious and not afraid to get their feathers dirty— resourceful and down to earth. They are also vaguely ridiculous and most comfortable in a crowd.",
     "slug": "pigeon",
     "actorType": "character",
     "statsDetail": "",
@@ -13,7 +13,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<div class=\"page\" title=\"Page 7\">      <div class=\"layoutArea\">      <div class=\"column\">      <p><strong>SEX:</strong> Female<br><strong>UNIFORM:</strong> Regulation, greasy, tattered, none<br><strong>BODY:</strong> Squat, frail, wiry, hunched, strong, lush<br><strong>HANDS:</strong> Expressive, filthy, calloused, steady, nervous, delicate<br><strong>HOME TOWN:</strong> Moscow, Novosibirsk (Siberia), Bratsk, Kharkov (Ukraine), Krasnodar<br><strong>WHO YOU WRITE TO BACK HOME:</strong> Your sister Sonya, the Yeleshev twins, Father Mikhail, no one</p>      </div>      </div>      </div>",
+            "value": "<strong>SEX:</strong> Female<br><strong>UNIFORM:</strong> Regulation, greasy, tattered, none<br><strong>BODY:</strong> Squat, frail, wiry, hunched, strong, lush<br><strong>HANDS:</strong> Expressive, filthy, calloused, steady, nervous, delicate<br><strong>HOME TOWN:</strong> Moscow, Novosibirsk (Siberia), Bratsk, Kharkov (Ukraine), Krasnodar<br><strong>WHO YOU WRITE TO BACK HOME:</strong> Your sister Sonya, the Yeleshev twins, Father Mikhail, no one",
             "options": {}
           }
         ],
