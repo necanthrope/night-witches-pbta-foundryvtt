@@ -292,6 +292,125 @@ export const configSheet = async () => {
                             }
                         },
                     },
+                    owlMarks: {
+                        position: "Left",
+                        label: "Marks",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: "owl",
+                        limited: false,
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "SUFFER THE DEATH OF A FRIEND OR LOVER."
+                            },
+                            1: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "WITNESS THE DEATH OF A COMRADE."
+                            },
+                            2: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "SHARE A PREMONITION."
+                            },
+                            3: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "MAKE A FRIEND OR TAKE A LOVER."
+                            },
+                            4: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "INFORM THE AUTHORITIES."
+                            },
+                            5: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "PUBLICLY SHAME A COMRADE."
+                            },
+                            6: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "EARN A MEDAL YOU DON'T DESERVE."
+                            },
+                            7: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "PUT SAFETY BEFORE LOVE OR DUTY."
+                            },
+                            8: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "ADVANCE AND GROW."
+                            },
+                            9: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "TELL A WAR STORY."
+                            },
+                            10: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "TELL A STORY OF HOME.",
+                            },
+                            11: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "EMBRACE DEATH AND FACE YOUR FINAL DESTINY.",
+                            }
+                        },
+                    },
                     pigeonMarks: {
                         position: "Left",
                         label: "Marks",
@@ -372,6 +491,244 @@ export const configSheet = async () => {
                                         }
                                 },
                                 label: "IGNORE A PROBLEM UNTIL IT OVERWHELMS."
+                            },
+                            8: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "ADVANCE AND GROW."
+                            },
+                            9: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "TELL A WAR STORY."
+                            },
+                            10: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "TELL A STORY OF HOME.",
+                            },
+                            11: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "EMBRACE DEATH AND FACE YOUR FINAL DESTINY.",
+                            }
+                        },
+                    },
+                    ravenMarks: {
+                        position: "Left",
+                        label: "Marks",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: "raven",
+                        limited: false,
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "SUFFER THE DEATH OF A FRIEND OR LOVER."
+                            },
+                            1: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "WITNESS THE DEATH OF A COMRADE."
+                            },
+                            2: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "SHARE A PREMONITION."
+                            },
+                            3: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "TELL THE UNVARNISHED TRUTH."
+                            },
+                            4: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "CLAIM SOMETHING AS YOUR OWN."
+                            },
+                            5: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "IGNORE A PROBLEM UNTIL IT OVERWHELMS."
+                            },
+                            6: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "CHANGE POSTS FOR THE WRONG REASONS."
+                            },
+                            7: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "ACT AGAINST YOUR BEST INTERESTS."
+                            },
+                            8: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "ADVANCE AND GROW."
+                            },
+                            9: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "TELL A WAR STORY."
+                            },
+                            10: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "TELL A STORY OF HOME.",
+                            },
+                            11: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "EMBRACE DEATH AND FACE YOUR FINAL DESTINY.",
+                            }
+                        },
+                    },
+                    sparrowMarks: {
+                        position: "Left",
+                        label: "Marks",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: "sparrow",
+                        limited: false,
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "SUFFER THE DEATH OF A FRIEND OR LOVER."
+                            },
+                            1: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "WITNESS THE DEATH OF A COMRADE."
+                            },
+                            2: {
+                                values: {
+                                    0: {
+                                        value: false
+                                    }
+                                },
+                                label: "SHARE A PREMONITION."
+                            },
+                            3: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "CALL DANGEROUS ATTENTION TO YOURSELF."
+                            },
+                            4: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "SPEAK TRUTH TO POWER."
+                            },
+                            5: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "SPREAD A VICIOUS RUMOR."
+                            },
+                            6: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "REVEAL A SECRET."
+                            },
+                            7: {
+                                values: {
+                                    0:
+                                        {
+                                            value: false
+                                        }
+                                },
+                                label: "ACT AGAINST YOUR BEST INTERESTS."
                             },
                             8: {
                                 values: {
