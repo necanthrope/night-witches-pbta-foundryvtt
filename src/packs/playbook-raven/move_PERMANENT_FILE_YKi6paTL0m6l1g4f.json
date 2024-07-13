@@ -5,7 +5,7 @@
   "img": "icons/svg/upgrade.svg",
   "system": {
     "description": "<p>When you submit an official report to your superiors, roll +skill.</p>",
-    "moveType": "",
+    "moveType": "playbookMoves",
     "rollFormula": "",
     "moveResults": {
       "failure": {
@@ -25,6 +25,7 @@
       }
     },
     "uses": 0,
+    "playbook": "Raven",
     "rollType": "",
     "rollMod": 0,
     "actorType": "",

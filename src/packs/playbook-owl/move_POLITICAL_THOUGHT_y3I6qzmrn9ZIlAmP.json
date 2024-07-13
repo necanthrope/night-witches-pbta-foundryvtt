@@ -5,7 +5,7 @@
   "img": "icons/svg/upgrade.svg",
   "system": {
     "description": "<p>When you Eyeball you may also ask “Is there evidence of violation of Articles 58 and 133?” (see page 45)</p>",
-    "moveType": "",
+    "moveType": "playbookMoves",
     "rollFormula": "",
     "moveResults": {
       "failure": {
@@ -25,6 +25,7 @@
       }
     },
     "uses": 0,
+    "playbook": "Owl",
     "rollType": "",
     "rollMod": 0,
     "actorType": "",

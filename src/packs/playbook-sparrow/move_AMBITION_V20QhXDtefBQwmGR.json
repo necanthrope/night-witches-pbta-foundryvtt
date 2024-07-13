@@ -5,7 +5,7 @@
   "img": "icons/svg/upgrade.svg",
   "system": {
     "description": "<p>Once per duty station, Advance when you do something explicitly against orders that causes you to Tempt Fate.</p>",
-    "moveType": "",
+    "moveType": "playbookMoves",
     "rollFormula": "",
     "moveResults": {
       "failure": {
@@ -25,6 +25,7 @@
       }
     },
     "uses": 0,
+    "playbook": "Sparrow",
     "rollType": "",
     "rollMod": 0,
     "actorType": "",

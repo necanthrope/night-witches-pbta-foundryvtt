@@ -5,7 +5,7 @@
   "img": "icons/svg/upgrade.svg",
   "system": {
     "description": "<p>When you want to land in some new place, you can ask “Is it remotely possible to land there?” and the GM will tell you. If the answer is yes, you don’t need to roll the Wheels Down Move.</p>",
-    "moveType": "",
+    "moveType": "playbookMoves",
     "rollFormula": "",
     "moveResults": {
       "failure": {
@@ -25,6 +25,7 @@
       }
     },
     "uses": 0,
+    "playbook": "Hawk",
     "rollType": "",
     "rollMod": 0,
     "actorType": "",

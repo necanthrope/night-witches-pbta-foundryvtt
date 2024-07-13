@@ -5,7 +5,7 @@
   "img": "icons/svg/upgrade.svg",
   "system": {
     "description": "<p>Choose a single Move. Replace the rolled stat with +luck when you trigger it.</p>",
-    "moveType": "",
+    "moveType": "playbookMoves",
     "rollFormula": "",
     "moveResults": {
       "failure": {
@@ -25,6 +25,7 @@
       }
     },
     "uses": 0,
+    "playbook": "Raven",
     "rollType": "",
     "rollMod": 0,
     "actorType": "",

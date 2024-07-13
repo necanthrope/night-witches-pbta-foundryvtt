@@ -5,7 +5,7 @@
   "img": "icons/svg/upgrade.svg",
   "system": {
     "description": "<p>You guard your history carefully. Choose two things you are hiding: Valuable training, prominent family, political connections, a strange secret, portable wealth. Define them whenever you want. Reveal either of these aspects of your past to save the day, make an impression or ruin someone.</p>",
-    "moveType": "",
+    "moveType": "playbookMoves",
     "rollFormula": "",
     "moveResults": {
       "failure": {
@@ -25,6 +25,7 @@
       }
     },
     "uses": 0,
+    "playbook": "Sparrow",
     "rollType": "",
     "rollMod": 0,
     "actorType": "",

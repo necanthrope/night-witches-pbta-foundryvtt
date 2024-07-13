@@ -4,7 +4,7 @@
   "img": "icons/svg/upgrade.svg",
   "system": {
     "description": "",
-    "moveType": "",
+    "moveType": "playbookMoves",
     "rollFormula": "",
     "moveResults": {
       "failure": {
@@ -24,6 +24,7 @@
       }
     },
     "uses": 0,
+    "playbook": "Owl",
     "rollType": "",
     "rollMod": 0,
     "actorType": "",

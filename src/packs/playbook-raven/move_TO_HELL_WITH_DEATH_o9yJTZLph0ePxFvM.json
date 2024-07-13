@@ -6,7 +6,7 @@
   "system": {
     "description": "<p>When you would normally be Marked you may choose another player character who is Marked instead.</p>",
     "moveType": "",
-    "rollFormula": "",
+    "rollFormula": "playbookMoves",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
@@ -25,6 +25,7 @@
       }
     },
     "uses": 0,
+    "playbook": "Raven",
     "rollType": "",
     "rollMod": 0,
     "actorType": "",

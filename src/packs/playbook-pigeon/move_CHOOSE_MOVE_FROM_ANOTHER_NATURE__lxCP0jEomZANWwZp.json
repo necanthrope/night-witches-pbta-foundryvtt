@@ -1,10 +1,11 @@
 {
+  "playbook": "Owl",
   "name": "CHOOSE MOVE FROM ANOTHER NATURE.",
   "type": "move",
   "img": "icons/svg/upgrade.svg",
   "system": {
     "description": "",
-    "moveType": "",
+    "moveType": "playbookMoves",
     "rollFormula": "",
     "moveResults": {
       "failure": {
@@ -24,6 +25,7 @@
       }
     },
     "uses": 0,
+    "playbook": "Pigeon",
     "rollType": "",
     "rollMod": 0,
     "actorType": "",

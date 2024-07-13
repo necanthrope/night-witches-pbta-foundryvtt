@@ -772,7 +772,7 @@ export const configSheet = async () => {
                 moveTypes: {
                     playbookMoves: {
                         label: "Moves",
-                        moves: []
+                        playbook: true
                     },
                     roleMoves: {
                         label: "Role",
