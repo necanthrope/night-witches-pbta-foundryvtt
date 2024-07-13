@@ -1,0 +1,52 @@
+{
+  "name": "AS SEEN IN PRAVDA",
+  "type": "move",
+  "_id": "QrwxDCN5TJpx3wlR",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Use +medals instead of +guts when you Tempt Fate.</p>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Hit",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Full Hit!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "g7RaCfWcjdoXToBo": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pbta",
+    "systemVersion": "1.0.20",
+    "createdTime": 1720840957395,
+    "modifiedTime": 1720841030566,
+    "lastModifiedBy": "g7RaCfWcjdoXToBo"
+  },
+  "_key": "!items!QrwxDCN5TJpx3wlR"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "RAPTOR",
+  "type": "move",
+  "_id": "V4ETaSp2erRvZSzH",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Advance the first time you have sex with each of: a Senior Lieutenant, a Captain, a Major, a Lieutenant Colonel, or a Colonel.</p>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Hit",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Full Hit!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "g7RaCfWcjdoXToBo": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pbta",
+    "systemVersion": "1.0.20",
+    "createdTime": 1720841055642,
+    "modifiedTime": 1720841080034,
+    "lastModifiedBy": "g7RaCfWcjdoXToBo"
+  },
+  "_key": "!items!V4ETaSp2erRvZSzH"
+}

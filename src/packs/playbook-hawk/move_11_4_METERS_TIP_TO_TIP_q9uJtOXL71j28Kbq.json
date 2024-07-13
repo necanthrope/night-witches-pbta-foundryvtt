@@ -1,0 +1,52 @@
+{
+  "name": "11.4 METERS TIP-TO-TIP",
+  "type": "move",
+  "_id": "q9uJtOXL71j28Kbq",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>When you want to land in some new place, you can ask “Is it remotely possible to land there?” and the GM will tell you. If the answer is yes, you don’t need to roll the Wheels Down Move.</p>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Hit",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Full Hit!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "g7RaCfWcjdoXToBo": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pbta",
+    "systemVersion": "1.0.20",
+    "createdTime": 1720840878100,
+    "modifiedTime": 1720840990308,
+    "lastModifiedBy": "g7RaCfWcjdoXToBo"
+  },
+  "_key": "!items!q9uJtOXL71j28Kbq"
+}

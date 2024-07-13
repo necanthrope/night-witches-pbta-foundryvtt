@@ -58,10 +58,54 @@
       }
     },
     {
-      "name": "playbooks",
-      "label": "Playbooks",
+      "name": "playbook-hawk",
+      "label": "Playbook: Hawk",
       "system": "pbta",
-      "path": "./packs/playbooks.db",
+      "path": "./packs/playbook-hawk.db",
+      "type": "Item",
+      "private":false,
+      "flags":{
+
+      }
+    },
+    {
+      "name": "playbook-owl",
+      "label": "Playbook: Owl",
+      "system": "pbta",
+      "path": "./packs/playbook-owl.db",
+      "type": "Item",
+      "private":false,
+      "flags":{
+
+      }
+    },
+    {
+      "name": "playbook-pigeon",
+      "label": "Playbook: Pigeon",
+      "system": "pbta",
+      "path": "./packs/playbook-pigeon.db",
+      "type": "Item",
+      "private":false,
+      "flags":{
+
+      }
+    },
+    {
+      "name": "playbook-raven",
+      "label": "Playbook: Raven",
+      "system": "pbta",
+      "path": "./packs/playbook-raven.db",
+      "type": "Item",
+      "private":false,
+      "flags":{
+
+      }
+    },
+    {
+      "name": "playbook-sparrow",
+      "label": "Playbook: Sparrow",
+      "system": "pbta",
+      "path": "./packs/playbook-sparrow.db",
       "type": "Item",
       "private":false,
       "flags":{

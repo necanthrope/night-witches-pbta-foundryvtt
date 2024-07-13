@@ -1,0 +1,54 @@
+{
+  "name": "SUKA",
+  "type": "move",
+  "system": {
+    "name": "",
+    "description": "<p> You enjoy +1 ongoing when acting like a hooligan. When you act like a lady you are Marked.</p>",
+    "moveType": "playbookMoves",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Hit",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Full Hit!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Hawk",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": "",
+    "actorType": "character"
+  },
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "RvB4EHRfspAUyhGT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.20",
+    "coreVersion": "12.328",
+    "createdTime": 1707688245001,
+    "modifiedTime": 1720840977204,
+    "lastModifiedBy": "g7RaCfWcjdoXToBo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "j59wmu4c3nasbvh2",
+  "_key": "!items!j59wmu4c3nasbvh2"
+}
