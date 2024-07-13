@@ -1,10 +1,9 @@
 {
-  "name": "RAPTOR",
+  "name": "CHOOSE MOVE FROM ANOTHER NATURE.",
   "type": "move",
-  "_id": "V4ETaSp2erRvZSzH",
   "img": "icons/svg/upgrade.svg",
   "system": {
-    "description": "<p>Advance the first time you have sex with each of: a Senior Lieutenant, a Captain, a Major, a Lieutenant Colonel, or a Colonel.</p>",
+    "description": "",
     "moveType": "",
     "rollFormula": "",
     "moveResults": {
@@ -32,7 +31,6 @@
   },
   "effects": [],
   "folder": null,
-  "sort": 400000,
   "ownership": {
     "default": 0,
     "g7RaCfWcjdoXToBo": 3
@@ -44,9 +42,11 @@
     "coreVersion": "12.328",
     "systemId": "pbta",
     "systemVersion": "1.0.20",
-    "createdTime": 1720841055642,
-    "modifiedTime": 1720842083850,
+    "createdTime": 1720842514642,
+    "modifiedTime": 1720842514642,
     "lastModifiedBy": "g7RaCfWcjdoXToBo"
   },
-  "_key": "!items!V4ETaSp2erRvZSzH"
+  "_id": "xY2qmpKZksUuNsD0",
+  "sort": 0,
+  "_key": "!items!xY2qmpKZksUuNsD0"
 }

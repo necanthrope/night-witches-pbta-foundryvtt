@@ -3,24 +3,24 @@
   "type": "move",
   "system": {
     "name": "",
-    "description": "<p><strong>WHEN YOU TEMPT FATE</strong> roll +guts. On a 10+ you do it. On a 7-9 you do it but not without cost - The GM can offer you a worse outcome, a hard bargain, or an ugly choice. On a miss you take harm as established and are marked in addition to failing. Fate is a <em>suka</em>.</p>",
+    "description": "<p><strong>WHEN YOU TEMPT FATE</strong> roll +guts.</p>",
     "moveType": "dayMoves",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>You take harm as established and are marked in addition to failing. Fate is a <em>suka</em>.</p>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "Partial Hit",
-        "value": ""
+        "value": "<p>You do it but not without cost - The GM can offer you a worse outcome, a hard bargain, or an ugly choice.</p>"
       },
       "success": {
         "key": "system.moveResults.success.value",
         "label": "Full Hit!",
-        "value": ""
+        "value": "<p>You do it.</p>"
       }
     },
     "uses": 0,
@@ -45,8 +45,8 @@
     "systemVersion": "1.0.20",
     "coreVersion": "12.328",
     "createdTime": 1707687876575,
-    "modifiedTime": 1720215011630,
-    "lastModifiedBy": "ZxkUcPIs5HSaJ2Mm",
+    "modifiedTime": 1720843658710,
+    "lastModifiedBy": "g7RaCfWcjdoXToBo",
     "compendiumSource": null,
     "duplicateSource": null
   },

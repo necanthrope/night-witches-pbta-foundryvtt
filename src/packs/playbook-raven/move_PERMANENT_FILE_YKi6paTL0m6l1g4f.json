@@ -1,10 +1,10 @@
 {
-  "name": "RAPTOR",
+  "name": "PERMANENT FILE",
   "type": "move",
-  "_id": "V4ETaSp2erRvZSzH",
+  "_id": "YKi6paTL0m6l1g4f",
   "img": "icons/svg/upgrade.svg",
   "system": {
-    "description": "<p>Advance the first time you have sex with each of: a Senior Lieutenant, a Captain, a Major, a Lieutenant Colonel, or a Colonel.</p>",
+    "description": "<p>When you submit an official report to your superiors, roll +skill.</p>",
     "moveType": "",
     "rollFormula": "",
     "moveResults": {
@@ -16,12 +16,12 @@
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "Partial Hit",
-        "value": ""
+        "value": "<p>Choose 1.</p>\n<ul>\n<li>Mark someone</li>\n<li>Change accepted truth of a situation</li>\n<li>Add one to the mission pool</li>\n</ul>"
       },
       "success": {
         "key": "system.moveResults.success.value",
         "label": "Full Hit!",
-        "value": ""
+        "value": "<p>Choose 2.</p>\n<ul>\n<li>Mark someone</li>\n<li>Change accepted truth of a situation</li>\n<li>Add one to the mission pool</li>\n</ul>"
       }
     },
     "uses": 0,
@@ -32,7 +32,7 @@
   },
   "effects": [],
   "folder": null,
-  "sort": 400000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "g7RaCfWcjdoXToBo": 3
@@ -44,9 +44,9 @@
     "coreVersion": "12.328",
     "systemId": "pbta",
     "systemVersion": "1.0.20",
-    "createdTime": 1720841055642,
-    "modifiedTime": 1720842083850,
+    "createdTime": 1720842310851,
+    "modifiedTime": 1720843733433,
     "lastModifiedBy": "g7RaCfWcjdoXToBo"
   },
-  "_key": "!items!V4ETaSp2erRvZSzH"
+  "_key": "!items!YKi6paTL0m6l1g4f"
 }

@@ -3,24 +3,24 @@
   "type": "move",
   "system": {
     "name": "",
-    "description": "<p><strong>WHEN YOUR PO-2 IS HIT BY BULLETS OR FLAK</strong> roll +luck. On a 10+ the old girl&rsquo;s in one piece and you are fine. On a 7-9 she holds together and you choose two consequences:</p>\n<ul>\n<li>You and your fellow airwoman are marked</li>\n<li>Casualties on board (Split 5 harm between you however you like; also triggers Wheels Down later)</li>\n<li>Your plane is damaged (Also triggers Wheels Down later)</li>\n<li>Another plane in your section goes down (GM will decide which)</li>\n</ul>\n<p>On a miss the GM might choose three from the 7-9 list or maybe something more horrific.</p>",
+    "description": "<p><strong>WHEN YOUR PO-2 IS HIT BY BULLETS OR FLAK</strong> roll +luck.</p>",
     "moveType": "nightMoves",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The GM might choose three from the 7-9 list or maybe something more horrific.</p>\n<ul>\n<li>You and your fellow airwoman are marked</li>\n<li>Casualties on board (Split 5 harm between you however you like; also triggers Wheels Down later)</li>\n<li>Your plane is damaged (Also triggers Wheels Down later)</li>\n<li>Another plane in your section goes down (GM will decide which)</li>\n</ul>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "Partial Hit",
-        "value": ""
+        "value": "<p>The old girl&rsquo;s in one piece and you are fine.</p>\n<ul>\n<li>You and your fellow airwoman are marked</li>\n<li>Casualties on board (Split 5 harm between you however you like; also triggers Wheels Down later)</li>\n<li>Your plane is damaged (Also triggers Wheels Down later)</li>\n<li>Another plane in your section goes down (GM will decide which)</li>\n</ul>"
       },
       "success": {
         "key": "system.moveResults.success.value",
         "label": "Full Hit!",
-        "value": ""
+        "value": "<p>She holds together and you choose two consequences:</p>\n<ul>\n<li>You and your fellow airwoman are marked</li>\n<li>Casualties on board (Split 5 harm between you however you like; also triggers Wheels Down later)</li>\n<li>Your plane is damaged (Also triggers Wheels Down later)</li>\n<li>Another plane in your section goes down (GM will decide which)</li>\n</ul>"
       }
     },
     "uses": 0,
@@ -45,8 +45,8 @@
     "systemVersion": "1.0.20",
     "coreVersion": "12.328",
     "createdTime": 1707689219714,
-    "modifiedTime": 1720215011927,
-    "lastModifiedBy": "ZxkUcPIs5HSaJ2Mm",
+    "modifiedTime": 1720844033779,
+    "lastModifiedBy": "g7RaCfWcjdoXToBo",
     "compendiumSource": null,
     "duplicateSource": null
   },

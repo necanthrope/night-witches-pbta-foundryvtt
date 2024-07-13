@@ -1,10 +1,10 @@
 {
-  "name": "RAPTOR",
+  "name": "SHIT TALKING",
   "type": "move",
-  "_id": "V4ETaSp2erRvZSzH",
+  "_id": "95jWZPfTjhtDRdnT",
   "img": "icons/svg/upgrade.svg",
   "system": {
-    "description": "<p>Advance the first time you have sex with each of: a Senior Lieutenant, a Captain, a Major, a Lieutenant Colonel, or a Colonel.</p>",
+    "description": "<p>Call out another player character you despise at a debriefing and roll +Regard. On a 10+ hold three; on 7-9 hold one. Spend your holds, one for one, to give this person -1 forward.</p>",
     "moveType": "",
     "rollFormula": "",
     "moveResults": {
@@ -32,7 +32,7 @@
   },
   "effects": [],
   "folder": null,
-  "sort": 400000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "g7RaCfWcjdoXToBo": 3
@@ -44,9 +44,9 @@
     "coreVersion": "12.328",
     "systemId": "pbta",
     "systemVersion": "1.0.20",
-    "createdTime": 1720841055642,
-    "modifiedTime": 1720842083850,
+    "createdTime": 1720841769923,
+    "modifiedTime": 1720841801176,
     "lastModifiedBy": "g7RaCfWcjdoXToBo"
   },
-  "_key": "!items!V4ETaSp2erRvZSzH"
+  "_key": "!items!95jWZPfTjhtDRdnT"
 }

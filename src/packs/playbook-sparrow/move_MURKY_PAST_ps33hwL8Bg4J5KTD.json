@@ -1,10 +1,10 @@
 {
-  "name": "RAPTOR",
+  "name": "MURKY PAST",
   "type": "move",
-  "_id": "V4ETaSp2erRvZSzH",
+  "_id": "ps33hwL8Bg4J5KTD",
   "img": "icons/svg/upgrade.svg",
   "system": {
-    "description": "<p>Advance the first time you have sex with each of: a Senior Lieutenant, a Captain, a Major, a Lieutenant Colonel, or a Colonel.</p>",
+    "description": "<p>You guard your history carefully. Choose two things you are hiding: Valuable training, prominent family, political connections, a strange secret, portable wealth. Define them whenever you want. Reveal either of these aspects of your past to save the day, make an impression or ruin someone.</p>",
     "moveType": "",
     "rollFormula": "",
     "moveResults": {
@@ -32,7 +32,7 @@
   },
   "effects": [],
   "folder": null,
-  "sort": 400000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "g7RaCfWcjdoXToBo": 3
@@ -44,9 +44,9 @@
     "coreVersion": "12.328",
     "systemId": "pbta",
     "systemVersion": "1.0.20",
-    "createdTime": 1720841055642,
-    "modifiedTime": 1720842083850,
+    "createdTime": 1720842898342,
+    "modifiedTime": 1720842926018,
     "lastModifiedBy": "g7RaCfWcjdoXToBo"
   },
-  "_key": "!items!V4ETaSp2erRvZSzH"
+  "_key": "!items!ps33hwL8Bg4J5KTD"
 }

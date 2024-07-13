@@ -1,10 +1,10 @@
 {
-  "name": "RAPTOR",
+  "name": "DARK BARGAIN",
   "type": "move",
-  "_id": "V4ETaSp2erRvZSzH",
+  "_id": "2UP81AP0wMd8W9N8",
   "img": "icons/svg/upgrade.svg",
   "system": {
-    "description": "<p>Advance the first time you have sex with each of: a Senior Lieutenant, a Captain, a Major, a Lieutenant Colonel, or a Colonel.</p>",
+    "description": "<p>You can elect to be Marked in order to remove all harm from yourself or another.</p>",
     "moveType": "",
     "rollFormula": "",
     "moveResults": {
@@ -32,7 +32,7 @@
   },
   "effects": [],
   "folder": null,
-  "sort": 400000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "g7RaCfWcjdoXToBo": 3
@@ -44,9 +44,9 @@
     "coreVersion": "12.328",
     "systemId": "pbta",
     "systemVersion": "1.0.20",
-    "createdTime": 1720841055642,
-    "modifiedTime": 1720842083850,
+    "createdTime": 1720842727581,
+    "modifiedTime": 1720842768462,
     "lastModifiedBy": "g7RaCfWcjdoXToBo"
   },
-  "_key": "!items!V4ETaSp2erRvZSzH"
+  "_key": "!items!2UP81AP0wMd8W9N8"
 }

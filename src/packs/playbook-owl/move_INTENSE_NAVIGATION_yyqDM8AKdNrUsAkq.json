@@ -1,10 +1,10 @@
 {
-  "name": "RAPTOR",
+  "name": "INTENSE NAVIGATION",
   "type": "move",
-  "_id": "V4ETaSp2erRvZSzH",
+  "_id": "yyqDM8AKdNrUsAkq",
   "img": "icons/svg/upgrade.svg",
   "system": {
-    "description": "<p>Advance the first time you have sex with each of: a Senior Lieutenant, a Captain, a Major, a Lieutenant Colonel, or a Colonel.</p>",
+    "description": "<p>To find a target at night, you don’t need to Wayfind if you instead take a Mark or 1-harm, your choice.</p>",
     "moveType": "",
     "rollFormula": "",
     "moveResults": {
@@ -32,7 +32,7 @@
   },
   "effects": [],
   "folder": null,
-  "sort": 400000,
+  "sort": 500000,
   "ownership": {
     "default": 0,
     "g7RaCfWcjdoXToBo": 3
@@ -44,9 +44,9 @@
     "coreVersion": "12.328",
     "systemId": "pbta",
     "systemVersion": "1.0.20",
-    "createdTime": 1720841055642,
-    "modifiedTime": 1720842083850,
+    "createdTime": 1720841497588,
+    "modifiedTime": 1720841644259,
     "lastModifiedBy": "g7RaCfWcjdoXToBo"
   },
-  "_key": "!items!V4ETaSp2erRvZSzH"
+  "_key": "!items!yyqDM8AKdNrUsAkq"
 }
