@@ -4,7 +4,7 @@
   "_id": "6aVDFpmtkMe6zwo7",
   "img": "icons/svg/upgrade.svg",
   "system": {
-    "description": "<p>Choose a dead comrade and hold three. When you ask your friend for help, spend your holds one for one to succeed as if you had<br />rolled a 10+. Every time you do this you are also harmed or Marked by the experience, your choice.</p>",
+    "description": "<p>Choose a dead comrade and hold three. When you ask your friend for help, spend your holds one for one to succeed as if you had rolled a 10+. Every time you do this you are also harmed or Marked by the experience, your choice.</p>",
     "moveType": "playbookMoves",
     "rollFormula": "",
     "moveResults": {
