@@ -72,23 +72,6 @@
         "grantOn": 1,
         "granted": false,
         "advancement": 0
-      },
-      {
-        "title": "Playbook Moves",
-        "desc": "Choose one.",
-        "type": "multi",
-        "repeatable": true,
-        "choices": [
-          {
-            "img": "icons/svg/aura.svg",
-            "uuid": "Compendium.night-witches-pbta-foundryvtt.playbook-moves.Item.j59wmu4c3nasbvh2",
-            "granted": false,
-            "advancement": 0
-          }
-        ],
-        "grantOn": 0,
-        "granted": false,
-        "advancement": 0
       }
     ]
   },
