@@ -1,7 +1,17 @@
 import { configSheet } from "./helpers/config-sheet.mjs"
+import * as utils from "./helpers/utils.mjs";
+import {NightWitchesActorSheetMixin} from "./sheets/actor-sheet.mjs";
 
 // once the game has initialized, set up the module
 Hooks.once('init', () => {
+
+    const nightWitchesActorSheet = NightWitchesActorSheetMixin(game.pbta.applications.actor.PbtaActorSheet);
+    Actors.unregisterSheet('pbta', game.pbta.applications.actor.PbtaActorSheet, { types: ['character'] });
+    Actors.registerSheet('pbta', nightWitchesActorSheet, {
+        types: ['character'],
+        makeDefault: true,
+        label: 'NIGHT-WITCHES-SHEETS.SheetConfig.character',
+    });
 
     // register nightwitches settings
     game.settings.register('night-witches-pbta-foundryvtt', 'settings-override', {
@@ -17,6 +27,9 @@ Hooks.once('init', () => {
     });
 
 })
+
+// Preload Handlebars stuff.
+utils.preloadHandlebarsTemplates();
 
 Hooks.once('pbtaSheetConfig', () => {
 
