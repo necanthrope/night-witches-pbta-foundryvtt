@@ -12,8 +12,10 @@
 				<div class="cell cell--image">
 					<img class="profile-img" src="{{actor.img}}" data-edit="img" />
 				</div>
+                <div>
+                    {{~> "modules/night-witches-pbta-foundryvtt/templates/parts/widgets/actor-longtext.hbs" attr=system.attrTab.look owner=owner editable=editable ~}}
+                </div>
 
-				{{> "modules/night-witches-pbta-foundryvtt/templates/parts/actor-stats.hbs" }}
 
 			</section>
 			{{/if}}
@@ -34,24 +36,28 @@
 			{{/if}}
 
 			{{!-- Main --}}
-			<section class="sheet-main flexcol">
+			<section class="sheet-main flexcol tex-gyre-schola">
 				{{!-- Sheet Tab Navigation --}}
 				<nav class="sheet-tabs tabs" data-group="primary">
-					<a class="item" data-tab="description">{{localize "PBTA.Description"}}</a>
+					<a class="item" data-tab="experience">{{localize "nightwitches.Experience"}}</a>
 					<a class="item" data-tab="moves">{{localize "PBTA.Moves"}}</a>
 					<a class="item" data-tab="equipment">{{localize "PBTA.Equipment"}}</a>
+                    <a class="item" data-tab="description">{{localize "PBTA.Description"}}</a>
 				</nav>
 
 				{{!-- Sheet Body --}}
 				<section class="sheet-body">
-					{{!-- Main Tab --}}
-					{{> "modules/night-witches-pbta-foundryvtt/templates/parts/actor-description.hbs" }}
+					{{!-- Regard & Harm Tab Tab --}}
+					{{> "modules/night-witches-pbta-foundryvtt/templates/parts/actor-experience.hbs" }}
 
 					{{!-- Moves Tab --}}
 					{{> "modules/night-witches-pbta-foundryvtt/templates/parts/actor-movelist.hbs" }}
 
 					{{!-- Owned Equipment Tab --}}
 					{{> "modules/night-witches-pbta-foundryvtt/templates/parts/actor-inventory.hbs" }}
+
+                    {{!-- Description Tab --}}
+                    {{> "modules/night-witches-pbta-foundryvtt/templates/parts/actor-description.hbs" }}
 				</section>
 			</section>
 		</section>

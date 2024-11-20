@@ -26,10 +26,17 @@ Hooks.once('init', () => {
         }, 500)
     });
 
-})
+    // Preload Handlebars stuff.
+    utils.preloadHandlebarsTemplates();
 
-// Preload Handlebars stuff.
-utils.preloadHandlebarsTemplates();
+    // helper to get data for playbook marks
+    Handlebars.registerHelper("getMarks", function (system) {
+        const playbookKey = system.playbook.slug + 'Marks';
+        const marks = system.attrTab[playbookKey];
+        return marks;
+    });
+
+})
 
 Hooks.once('pbtaSheetConfig', () => {
 

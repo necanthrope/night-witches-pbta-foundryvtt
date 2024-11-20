@@ -36,7 +36,7 @@
     "./module/night-witches-pbta-foundryvtt.mjs"
   ],
   "styles": [
-    "./styles/night-witches-pbta-foundryvtt.css"
+    "./css/night-witches.css"
   ],
   "languages": [
     {
@@ -54,7 +54,6 @@
       "type": "Item",
       "private":false,
       "flags":{
-
       }
     },
     {
@@ -65,7 +64,6 @@
       "type": "Item",
       "private":false,
       "flags":{
-
       }
     },
     {
@@ -76,7 +74,6 @@
       "type": "Item",
       "private":false,
       "flags":{
-
       }
     },
     {
@@ -87,7 +84,6 @@
       "type": "Item",
       "private":false,
       "flags":{
-
       }
     },
     {
@@ -98,7 +94,6 @@
       "type": "Item",
       "private":false,
       "flags":{
-
       }
     },
     {
@@ -109,7 +104,6 @@
       "type": "Item",
       "private":false,
       "flags":{
-
       }
     },
     {
@@ -120,7 +114,6 @@
       "type": "Item",
       "private":false,
       "flags":{
-
       }
     },
     {
@@ -131,7 +124,16 @@
       "type": "Item",
       "private":false,
       "flags":{
-
+      }
+    },
+    {
+      "name": "ranks",
+      "label": "Ranks",
+      "system": "pbta",
+      "path": "./packs/ranks.db",
+      "type": "RollTable",
+      "private": false,
+      "flags": {
       }
     }
   ],

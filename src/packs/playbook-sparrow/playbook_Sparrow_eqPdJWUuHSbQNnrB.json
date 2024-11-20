@@ -29,6 +29,23 @@
       {
         "title": "Roles",
         "desc": "Choose one.",
+        "type": "single",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.night-witches-pbta-foundryvtt.ranks.RollTable.YioLhonDpaMcydHx",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Roles",
+        "desc": "Choose one.",
         "type": "multi",
         "repeatable": true,
         "choices": [

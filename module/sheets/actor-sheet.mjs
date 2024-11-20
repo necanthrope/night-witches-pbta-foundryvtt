@@ -5,8 +5,10 @@ export function NightWitchesActorSheetMixin(Base) {
             // console.log("default options");
             // console.log(super.defaultOptions);
             return mergeObject(super.defaultOptions, {
-                // width: 850,
-                // height: 900,
+                // width: 840,
+                // height: 780,
+                width: 850,
+                height: 955,
             });
         }
 

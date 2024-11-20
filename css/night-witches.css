@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Tex Gyre Schola';
+    src: url("../assets/fonts/texgyreschola-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Tex Gyre Schola Bold';
+    src: url("../assets/fonts/texgyreschola-bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Tex Gyre Schola Bold Italic';
+    src: url("../assets/fonts/texgyreschola-bolditalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Tex Gyre Schola Italic';
+    src: url("../assets/fonts/texgyreschola-italic.otf") format("opentype");
+}
+
+:root {
+    /*--actor-gradient: linear-gradient(*/
+    /*        to bottom,*/
+    /*        #798a9b 0%,*/
+    /*        #363e49 80%,*/
+    /*        #20252c 100%*/
+    /*);*/
+    --night-witches-primary-text-color: #e9ecf1;
+    --night-witches-secondary-text-color: #000000;
+    --night-witches-title-text-color: #3e72a3;
+    --night-witches-input-text-color: #000000;
+    --night-witches-input-placeholder-color: #798a9b;
+    --night-witches-input-disabled-color: #3e72a3;
+    --night-witches-interactive-bg-color: #1e528f;
+    --night-witches-interactive-bg-hover-color: #173f6e;
+    --night-witches-option-bg-color: #683b47;
+    --night-witches-tabs-border-color: #bc1ca;
+    --night-witches-tab-bg-active-color: #fbea96;
+    --night-witches-input-bg-color: rgb(255 255 255 / 75%);
+    --night-witches-input-border-color: rgb(0 0 0 / 75%);
+    --night-witches-tox-edit-area-bg-color: rgba(255, 255, 255, 0.5);
+    --night-witches-resource-border-color: #bcc8de;
+    --night-witches-resource-control-bg-color: #ffffff;
+    --night-witches-stats-border-color: rgb(229 222 210 / 37%);
+    --night-witches-cell-title-border-color: #173f6e;
+    --night-witches-header-bg-color: #173f6e;
+    --night-witches-window-bg-image: var(--actor-gradient);
+    --night-witches-window-bg-position: bottom left;
+    --night-witches-influence-icon-color: invert(100%);
+    --night-witches-influence-icon-disabled-color: invert(100%) opacity(50%);
+    --night-witches-green: #5b6d0e;
+    --night-witches-orange: #c64a1a;
+
+}
+
+.league-gothic {
+    font-family: 'League Gothic', sans-serif !important;
+    font-weight: 400;
+}
+
+/*font definitions*/
+.tex-gyre-schola {
+    font-family: 'Tex Gyre Schola', cursive !important;
+}
+
+.libre-franklin {
+    font-family: 'Libre Franklin', sans-serif !important;
+}
+
+.libre-franklin-800 {
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-weight: 800 ;
+}
+
+.green {
+    color: var(--night-witches-green) !important;
+}
+
+.orange {
+    color: var(--night-witches-orange) !important;
+}
+
+.cell__title.stat-title {
+    color: black !important;
+    font-size: var(--font-size-20) !important;
+}
+
+/* overrides */
+strong {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+}
+
+li.stat.flexrow {
+    font-family: 'League Gothic', sans-serif;
+    background-color: initial !important;
+    border-radius: 0 !important;
+    border: 4px solid var(--night-witches-green);
+    flex-grow: 1 !important;
+}
+
+label.cell__title {
+    color: var(--night-witches-green) !important;
+    font-family: 'League Gothic', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: var(--font-size-32) !important;
+    text-transform: uppercase !important;
+}
+
+i.fa-dice-d6:before {
+    color: black;
+}
+
+/* custom styles */
+div .nw-tab-container {
+    display: flex;
+}
+
+div .nw-column {
+    flex-direction: column;
+}
+
+div .nw-moves-column {
+    flex-grow: 2;
+    overflow-y: auto;
+    max-width: 65%;
+    min-width: 65% !important;
+}
+
+div .nw-stats-column {
+    flex-grow: 1;
+    max-width: 35%;
+    min-width: 35%;
+}
+
+div .nw-regard-column {
+    flex-grow: 1;
+    overflow-y: auto;
+    max-width: 50%;
+    min-width: 50% !important;
+}
+
+div .nw-harm-column {
+    flex-grow: 1;
+    max-width: 50%;
+    min-width: 50%;
+}
+
+div .nw-advancement-column {
+    flex-grow: 1;
+    overflow-y: auto;
+    max-width: 50%;
+    min-width: 50% !important;
+}
+
+.nw-advancement-description {
+    font-family: 'Tex Gyre Schola', cursive;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    font-weight: normal !important;
+}
+
+div .nw-marks-column {
+    flex-grow: 1;
+    max-width: 50%;
+    min-width: 50%;
+}
+
+.input-regard-emotion {
+    width: 10em !important;
+}
+
+.input-regard-name {
+    width: 10em !important;
+}

@@ -42,41 +42,59 @@ export const configSheet = async () => {
                 },
                 attributes: {
                     look: {
-                        position: "Left",
+                        position: "Tab",
                         label: "Look",
                         type: "LongText",
                         playbook: true,
                     },
-                    regard: {
-                        position: "Left",
-                        label: "Regard",
-                        type: "LongText",
-                    },
                     harm: {
-                        position: "Left",
+                        position: "Tab",
                         type: "ListMany",
                         label: "Harm",
                         options: {
                             0: {
-                                label: "1-Harm: Stressed.",
-                                value: false
+                                label: "1-Harm",
+                                value: false,
+                                description: "Stressed. Rest and relaxation removes it.",
                             },
                             1: {
-                                label: "2-Harm: Lightly injured.",
-                                value: false
+                                label: "2-Harm",
+                                value: false,
+                                description: "Lightly Injured. Diligent aid and a day away from duty removes it.",
                             },
                             2: {
-                                label: "3-Harm: Seriously Injured.",
-                                value: false
+                                label: "3-Harm",
+                                value: false,
+                                description: "Seriously Injured, requiring hospitalization.",
                             },
                             3: {
-                                label: "4-Harm: Death.",
-                                value: false
+                                label: "4-Harm",
+                                value: false,
+                                description: "Death.",
                             }
                         }
                     },
+                    regard: {
+                        label: "Regard",
+                        position: "Tab",
+                        type: "ListMany",
+                        entries: {
+                            1: {
+                                emotion: "",
+                                name: "",
+                            },
+                            2: {
+                                emotion: "",
+                                name: "",
+                            },
+                            3: {
+                                emotion: "",
+                                name: "",
+                            },
+                        }
+                    },
                     advancement: {
-                        position: "Left",
+                        position: "Tab",
                         label: "Advancement",
                         description: null,
                         customLabel: false,
@@ -99,7 +117,8 @@ export const configSheet = async () => {
                                         value: false
                                     }
                                 },
-                                label: "HARSH LESSONS"
+                                label: "HARSH LESSONS",
+                                description: "Add a new move.",
                             },
                             1: {
                                 values: {
@@ -116,7 +135,8 @@ export const configSheet = async () => {
                                         value: false
                                     }
                                 },
-                                label: "DEEPENING TIES"
+                                label: "DEEPENING TIES",
+                                description: "Open a Regard slot and fill it.",
                             },
                             2: {
                                 values: {
@@ -130,7 +150,8 @@ export const configSheet = async () => {
                                         value: false
                                     }
                                 },
-                                label: "PERSONAL GROWTH"
+                                label: "PERSONAL GROWTH",
+                                description: "Raise Guts, Luck, or Skill by one (maximum +3).",
                             },
                             3: {
                                 values: {
@@ -147,7 +168,8 @@ export const configSheet = async () => {
                                         value: false
                                     }
                                 },
-                                label: "HONOR AND PRIDE"
+                                label: "HONOR AND PRIDE",
+                                description: "Add the left-most new medal and +1 Medals stat.",
                             },
                             4: {
                                 values: {
@@ -161,7 +183,8 @@ export const configSheet = async () => {
                                         value: false
                                     }
                                 },
-                                label: "ADDED RESPONSIBILITY"
+                                label: "ADDED RESPONSIBILITY",
+                                description: "Increase in Rank.  There can be only one Major!",
                             },
                             5: {
                                 values: {
@@ -169,12 +192,13 @@ export const configSheet = async () => {
                                         value: false
                                     }
                                 },
-                                label: "MOVING WEST"
+                                label: "MOVING WEST",
+                                description: "Change Duty Station. if you are at #6, the war is over.",
                             }
                         }
                     },
                     hawkMarks: {
-                        position: "Left",
+                        position: "Tab",
                         label: "Marks",
                         description: null,
                         customLabel: false,
@@ -293,7 +317,7 @@ export const configSheet = async () => {
                         },
                     },
                     owlMarks: {
-                        position: "Left",
+                        position: "Tab",
                         label: "Marks",
                         description: null,
                         customLabel: false,
@@ -412,7 +436,7 @@ export const configSheet = async () => {
                         },
                     },
                     pigeonMarks: {
-                        position: "Left",
+                        position: "Tab",
                         label: "Marks",
                         description: null,
                         customLabel: false,
@@ -531,7 +555,7 @@ export const configSheet = async () => {
                         },
                     },
                     ravenMarks: {
-                        position: "Left",
+                        position: "Tab",
                         label: "Marks",
                         description: null,
                         customLabel: false,
@@ -650,7 +674,7 @@ export const configSheet = async () => {
                         },
                     },
                     sparrowMarks: {
-                        position: "Left",
+                        position: "Tab",
                         label: "Marks",
                         description: null,
                         customLabel: false,

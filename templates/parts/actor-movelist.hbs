@@ -59,6 +59,9 @@
 		</section>
 		{{/if}}
 
+        <div class="nw-tab-container">
+            <div class = "nw-column nw-moves-column">
+
 		{{#each moves as |moveGroup moveKey|}}
 			<div class="cell cell--moves cell--group cell--{{moveKey}}" data-key="{{moveKey}}">
 				<h2 class="cell__title">
@@ -87,12 +90,20 @@
 				<ol class="items-list">
 				{{#each moveGroup as |item id|}}
 					<li class="item flexrow" data-item-id="{{item._id}}" draggable="true">
-					{{> "pbta.actor-moves" item=item statSettings=../../statSettings sheetSettings=../../sheetSettings}}
+					{{> "modules/night-witches-pbta-foundryvtt/templates/parts/actor-moves.hbs" item=item statSettings=../../statSettings sheetSettings=../../sheetSettings}}
 					</li>
 				{{/each}}
 				</ol>
 			</div>
 		{{/each}}
+
+            </div>
+            <div class="nw-column nw-stats-column">
+                <section class="sheet-attributes flexrow">
+                {{> "modules/night-witches-pbta-foundryvtt/templates/parts/actor-stats.hbs" }}
+                </section>
+            </div>
+        </div>
 
 	</section>
 </div>

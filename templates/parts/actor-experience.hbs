@@ -1,0 +1,46 @@
+<div class="tab experience" data-group="primary" data-tab="experience">
+    {{#if isCharacter}}
+    <section class="sheet-tab">
+        <div class="nw-tab-container">
+            <div class="nw-column nw-regard-column">
+
+            <label class = "cell__title">Regard</label>
+            {{#each system.attrTab.regard.entries as |regard regardKey|}}
+            <div>
+                I <input type="text" name="system.attributes.regard.entries.{{regardKey}}.emotion"
+                       class="input-regard-emotion" value="{{regard.emotion}}" />
+                <input type="text" name="system.attributes.regard.entries.{{regardKey}}.name"
+                       class="input-regard-name" value="{{regard.name}}" /> the most.
+            </div>
+            {{/each}}
+            </div>
+
+            <div class="nw-column nw-harm-column">
+                <label class = "cell__title">Harm</label>
+                <section class="sheet-attributes flexrow">
+                    {{~> "modules/night-witches-pbta-foundryvtt/templates/parts/widgets/actor-listmany.hbs" attr=system.attrTab.harm key="harm"~}}
+                </section>
+            </div>
+
+        </div>
+        <div class="nw-tab-container">
+
+            <div class="nw-column nw-advancement-column">
+                <label class = "cell__title">Advancement</label>
+                <section class="sheet-attributes flexrow">
+                    {{~> "modules/night-witches-pbta-foundryvtt/templates/parts/widgets/actor-listmany.hbs" attr=system.attrTab.advancement key="advancement" ~}}
+                </section>
+            </div>
+
+            <div class="nw-column nw-marks-column">
+                <label class = "cell__title">Marks</label>
+                <section class="sheet-attributes flexrow">
+                    {{~> "modules/night-witches-pbta-foundryvtt/templates/parts/widgets/actor-listmany.hbs" attr=(getMarks system) key=(concat system.playbook.slug "Marks") ~}}
+                </section>
+            </div>
+
+        </div>
+
+    </section>
+    {{/if}}
+</div>

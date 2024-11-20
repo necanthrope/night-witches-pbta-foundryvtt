@@ -1,0 +1,29 @@
+<ul class="cell__checkboxes flexcol">
+    {{#each attr.options as |option optionKey|}}
+        <label
+                class="libre-franklin"
+            {{#if option.tooltip}}
+                data-tooltip="{{option.tooltip}}"
+                data-tooltip-direction="UP"
+            {{/if}}
+        >
+            {{#if option.values}}
+                {{#each option.values as |suboption suboptionKey|}}
+                    <input type="checkbox" class="attr-list" name="system.attributes.{{../../key}}.options.{{optionKey}}.values.{{suboptionKey}}.value" {{checked suboption.value}}/>
+                {{/each}}
+            {{else}}
+                <input type="checkbox" class="attr-list" name="system.attributes.{{../key}}.options.{{optionKey}}.value" {{checked option.value}}/>
+            {{/if}}
+            {{#if (eq option.label "[Text]")}}
+                <input type="text" class="input input-title" name="system.attributes.{{../key}}.options.{{optionKey}}.userLabel" value="{{option.userLabel}}">
+            {{else}}
+                {{option.label}}{{#if option.description}}:{{/if}}
+            {{/if}}
+        </label>
+        {{#if option.description}}
+            <span class = "nw-advancement-description">
+                {{option.description}}
+            </span>
+        {{/if}}
+    {{/each}}
+</ul>
