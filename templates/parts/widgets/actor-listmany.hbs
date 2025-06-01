@@ -1,7 +1,7 @@
 <ul class="cell__checkboxes flexcol">
     {{#each attr.options as |option optionKey|}}
-        <label
-                class="libre-franklin"
+        <span
+                class="libre-franklin-800 listmany-label"
             {{#if option.tooltip}}
                 data-tooltip="{{option.tooltip}}"
                 data-tooltip-direction="UP"
@@ -17,13 +17,11 @@
             {{#if (eq option.label "[Text]")}}
                 <input type="text" class="input input-title" name="system.attributes.{{../key}}.options.{{optionKey}}.userLabel" value="{{option.userLabel}}">
             {{else}}
-                {{option.label}}{{#if option.description}}:{{/if}}
+                <span class = "nw-advancement-description">
+                    <strong>{{option.label}}{{#if option.description}}:{{/if}}</strong>
+                    {{#if option.description}}{{{option.description}}}{{/if}}
+                </span>
             {{/if}}
-        </label>
-        {{#if option.description}}
-            <span class = "nw-advancement-description">
-                {{option.description}}
-            </span>
-        {{/if}}
+        </span>
     {{/each}}
 </ul>

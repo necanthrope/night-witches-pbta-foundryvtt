@@ -91,6 +91,10 @@ export const configSheet = async () => {
                                 emotion: "",
                                 name: "",
                             },
+                            4: {
+                                emotion: "",
+                                name: "",
+                            },
                         }
                     },
                     advancement: {
@@ -193,7 +197,7 @@ export const configSheet = async () => {
                                     }
                                 },
                                 label: "MOVING WEST",
-                                description: "Change Duty Station. if you are at #6, the war is over.",
+                                description: "Change Duty Station. If you are at #6, the war is over.",
                             }
                         }
                     },

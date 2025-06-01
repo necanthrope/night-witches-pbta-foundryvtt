@@ -57,6 +57,10 @@
 
 }
 
+.sheet-wrapper {
+    font-size: var(--font-size-12) !important;
+}
+
 .league-gothic {
     font-family: 'League Gothic', sans-serif !important;
     font-weight: 400;
@@ -76,6 +80,12 @@
     font-weight: 800 ;
 }
 
+.listmany-label {
+    display: flex;
+    align-items: flex-start !important;
+    width: fit-content;
+}
+
 .green {
     color: var(--night-witches-green) !important;
 }
@@ -93,6 +103,7 @@
 strong {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 li.stat.flexrow {
@@ -118,6 +129,7 @@ i.fa-dice-d6:before {
 /* custom styles */
 div .nw-tab-container {
     display: flex;
+    width: 100%;
 }
 
 div .nw-column {
@@ -140,34 +152,34 @@ div .nw-stats-column {
 div .nw-regard-column {
     flex-grow: 1;
     overflow-y: auto;
-    max-width: 50%;
-    min-width: 50% !important;
+    max-width: 70%;
+    min-width: 70% !important;
 }
 
 div .nw-harm-column {
     flex-grow: 1;
-    max-width: 50%;
-    min-width: 50%;
+    max-width: 30%;
+    min-width: 30%;
 }
 
 div .nw-advancement-column {
     flex-grow: 1;
     overflow-y: auto;
-    max-width: 50%;
-    min-width: 50% !important;
+    /*max-width: 60%;*/
+    /*min-width: 60% !important;*/
 }
 
 .nw-advancement-description {
     font-family: 'Tex Gyre Schola', cursive;
-    margin-left: 7px;
-    margin-bottom: 7px;
+    margin-left: 5px;
+    /*margin-bottom: 7px;*/
     font-weight: normal !important;
 }
 
 div .nw-marks-column {
     flex-grow: 1;
-    max-width: 50%;
-    min-width: 50%;
+    /*max-width: 40%;*/
+    /*min-width: 40%;*/
 }
 
 .input-regard-emotion {
