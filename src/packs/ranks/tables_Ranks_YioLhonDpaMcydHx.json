@@ -1,0 +1,44 @@
+{
+  "name": "Ranks",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>description</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "fGjN7usTqrcwcWU6",
+      "text": "result",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!YioLhonDpaMcydHx.fGjN7usTqrcwcWU6"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pbta",
+    "systemVersion": "1.0.20",
+    "createdTime": 1731714280022,
+    "modifiedTime": 1731714280022,
+    "lastModifiedBy": "0SHjk6thbx5BUQUx"
+  },
+  "formula": "1d1",
+  "_id": "YioLhonDpaMcydHx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0SHjk6thbx5BUQUx": 3
+  },
+  "_key": "!tables!YioLhonDpaMcydHx"
+}
